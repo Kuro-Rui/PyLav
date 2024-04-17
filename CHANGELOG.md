@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.14.4 (17/04/2024)
+- [Dependency update](https://github.com/PyLav/PyLav/commit/6983aaa2a34cdf0b2e0559c36acede53378f7eb8) - @Drapersniper
+
+---
+
 ## v1.14.3 (06/02/2024)
 - [Fix TypeError: 'NoneType' object is not subscriptable (seasw.)](https://github.com/PyLav/PyLav/commit/07bce4c136114be59678c14027e395e5684df9c7) - @Drapersniper
 
@@ -803,9 +808,3 @@
 ## v0.11.17.2 (24/11/2022)
 - [[post] Add new translations](https://github.com/Drapersniper/PyLav/commit/a6b80d71b39fc1527ea9a02ceeb30a823d10c74c) - @Drapersniper
 - [[post] Update translations](https://github.com/Drapersniper/PyLav/commit/79efb5dbc975602675b8b5db4724bef94cb7b98f) - @crowdin-bot
-
----
-
-## v0.11.17.1 (23/11/2022)
-- [[post] Add new translations](https://github.com/Drapersniper/PyLav/commit/72e281057e99ba376c3f42bf93e6ad18fac932ea) - @Drapersniper
-- [[post] Update translations](https://github.com/Drapersniper/PyLav/commit/cf3f37148889129747a6216c1ef03bd63b041469) - @crowdin-bot
