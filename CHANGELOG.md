@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.14.5 (17/04/2024)
+- [Fix AttributeError: 'NoneType' object has no attribute 'info' on deezer bundled playlist update](https://github.com/PyLav/PyLav/commit/610cb32e111eb34b4337e3dca0fbc9937b8e439e) - @Drapersniper
+
+---
+
 ## v1.14.4 (17/04/2024)
 - [Dependency update](https://github.com/PyLav/PyLav/commit/6983aaa2a34cdf0b2e0559c36acede53378f7eb8) - @Drapersniper
 
@@ -802,9 +807,3 @@
 ## v0.11.17.3 (24/11/2022)
 - [[post] Add new translations](https://github.com/Drapersniper/PyLav/commit/7848668966b1a511d5648548dfac5d420969fde3) - @Drapersniper
 - [[post] Update translations](https://github.com/Drapersniper/PyLav/commit/b6c434083bb4e50b1859870fba5bf6729a6ec06f) - @crowdin-bot
-
----
-
-## v0.11.17.2 (24/11/2022)
-- [[post] Add new translations](https://github.com/Drapersniper/PyLav/commit/a6b80d71b39fc1527ea9a02ceeb30a823d10c74c) - @Drapersniper
-- [[post] Update translations](https://github.com/Drapersniper/PyLav/commit/79efb5dbc975602675b8b5db4724bef94cb7b98f) - @crowdin-bot
