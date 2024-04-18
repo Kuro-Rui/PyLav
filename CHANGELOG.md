@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.14.6 (18/04/2024)
+- [Make so writing to `pylav.yaml` is not mandatory](https://github.com/PyLav/PyLav/commit/3487e17b392dcb27cb2e60c39f4975c44aa0620b) - @Drapersniper
+- [Update SETUP.md](https://github.com/PyLav/PyLav/commit/60bf264cc6a7211cf2890916d047e0fc28f76b36) - @Drapersniper
+- [Auto Merge](https://github.com/PyLav/PyLav/commit/2576f66a389e7ed56dc5da8923310f555c8aa9c7) - @Drapersniper
+- [New Crowdin translations by GitHub Action](https://github.com/PyLav/PyLav/commit/0c3601091f22875783dffbca6c97ffb95ec860ba) - @crowdin-bot
+
+---
+
 ## v1.14.5 (17/04/2024)
 - [Fix AttributeError: 'NoneType' object has no attribute 'info' on deezer bundled playlist update](https://github.com/PyLav/PyLav/commit/610cb32e111eb34b4337e3dca0fbc9937b8e439e) - @Drapersniper
 
@@ -801,9 +809,3 @@
 
 ## v0.11.18.0 (25/11/2022)
 - [[patch] Fix an incorrect import usage](https://github.com/Drapersniper/PyLav/commit/af17f87cec7e776ae36b73bd81d5cc73ad0bf417) - @Drapersniper
-
----
-
-## v0.11.17.3 (24/11/2022)
-- [[post] Add new translations](https://github.com/Drapersniper/PyLav/commit/7848668966b1a511d5648548dfac5d420969fde3) - @Drapersniper
-- [[post] Update translations](https://github.com/Drapersniper/PyLav/commit/b6c434083bb4e50b1859870fba5bf6729a6ec06f) - @crowdin-bot
