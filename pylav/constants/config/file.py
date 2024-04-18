@@ -190,7 +190,7 @@ data_new = _remove_keys(
     data=data_new,
 )
 
-if DeepDiff(data, data_new, ignore_order=True, max_passes=2, cache_size=1000):
+if os.access(ENV_FILE, os.W_OK) and DeepDiff(data, data_new, ignore_order=True, max_passes=2, cache_size=1000):
     with ENV_FILE.open(mode="w") as file:
         LOGGER.info("Updating %s with the following content: %r", ENV_FILE, data_new)
         yaml.safe_dump(data_new, file, default_flow_style=False, sort_keys=False, encoding="utf-8")

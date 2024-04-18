@@ -46,6 +46,9 @@ def build_from_envvars() -> None:
         TASK_TIMER_UPDATE_EXTERNAL_PLAYLISTS_DAYS,
     )
 
+    if not os.access(ENV_FILE, os.W_OK):
+        return LOGGER.error("Cannot write to %s", ENV_FILE)
+
     # noinspection SpellCheckingInspection
     data = {
         "PYLAV__POSTGRES_PORT": POSTGRES_PORT,
