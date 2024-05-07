@@ -201,6 +201,7 @@ style = "semver"
 dirty = false
 latest-tag = true
 strict = true
+fix-shallow-repository = true
 
 [tool.poetry-dynamic-versioning.substitution]
 files = []
