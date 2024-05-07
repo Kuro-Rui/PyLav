@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.15.0 (07/05/2024)
+- [Make PyLav v1.15 Release](https://github.com/PyLav/PyLav/commit/223b5c8ece9b94d63d63d8f8fa62d9b57aa8f31f) - @Drapersniper
+- [Bump actions/checkout from 4.1.0 to 4.1.1 (#270)](https://github.com/PyLav/PyLav/commit/ef9ca33653b7eb5c06e19300091ef5fe01a7c903) - @dependabot[bot]
+- [Bump actions/setup-node from 3 to 4 (#272)](https://github.com/PyLav/PyLav/commit/104170b26b2185d3fdc4257f56250a20a18d64ea) - @dependabot[bot]
+- [Bump stefanzweifel/git-auto-commit-action from 4.16.0 to 5.0.0 (#268)](https://github.com/PyLav/PyLav/commit/598647d6b1683ce6d88c51d2bab0fcdb1fcfcccb) - @dependabot[bot]
+- [Bump actions/github-script from 6 to 7 (#277)](https://github.com/PyLav/PyLav/commit/a1dd0e836f6e82e4dc7b1777ede0b15bce016459) - @dependabot[bot]
+- [Bump crowdin/github-action from 1.13.1 to 1.16.0 (#280)](https://github.com/PyLav/PyLav/commit/efa30e4bfaa7c51298e16e4d0cbd77e0c07462bd) - @dependabot[bot]
+
+---
+
 ## v1.14.6 (18/04/2024)
 - [Make so writing to `pylav.yaml` is not mandatory](https://github.com/PyLav/PyLav/commit/3487e17b392dcb27cb2e60c39f4975c44aa0620b) - @Drapersniper
 - [Update SETUP.md](https://github.com/PyLav/PyLav/commit/60bf264cc6a7211cf2890916d047e0fc28f76b36) - @Drapersniper
@@ -804,8 +814,3 @@
 
 ## v0.11.19.0 (26/11/2022)
 - [[patch] Properly fix  NameError: name 'tables' is not defined](https://github.com/Drapersniper/PyLav/commit/ee9521e95e40a97245dab038634101e0359b866f) - @Drapersniper
-
----
-
-## v0.11.18.0 (25/11/2022)
-- [[patch] Fix an incorrect import usage](https://github.com/Drapersniper/PyLav/commit/af17f87cec7e776ae36b73bd81d5cc73ad0bf417) - @Drapersniper
