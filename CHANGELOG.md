@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.15.1 (07/05/2024)
+- [fix: importlib.metadata](https://github.com/PyLav/PyLav/commit/0c8e7e62dbfbba2b56365e164712503af7e22ac5) - @Drapersniper
+- [dep: fix-shallow-repository](https://github.com/PyLav/PyLav/commit/6426f5a30710c589d2347e620f6040656542c47f) - @Drapersniper
+
+---
+
 ## v1.15.0 (07/05/2024)
 - [Make PyLav v1.15 Release](https://github.com/PyLav/PyLav/commit/223b5c8ece9b94d63d63d8f8fa62d9b57aa8f31f) - @Drapersniper
 - [Bump actions/checkout from 4.1.0 to 4.1.1 (#270)](https://github.com/PyLav/PyLav/commit/ef9ca33653b7eb5c06e19300091ef5fe01a7c903) - @dependabot[bot]
@@ -809,8 +815,3 @@
 ## v0.11.19.1 (26/11/2022)
 - [[post] Add new translations](https://github.com/Drapersniper/PyLav/commit/b6a70d2af59d3593532a89e2a3af705180151f24) - @Drapersniper
 - [[post] Update translations](https://github.com/Drapersniper/PyLav/commit/170d8c09d834c952c5018e517ec877a96675929c) - @crowdin-bot
-
----
-
-## v0.11.19.0 (26/11/2022)
-- [[patch] Properly fix  NameError: name 'tables' is not defined](https://github.com/Drapersniper/PyLav/commit/ee9521e95e40a97245dab038634101e0359b866f) - @Drapersniper
