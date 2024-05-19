@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pylav\n"
-"POT-Creation-Date: 2024-05-07 00:16+0000\n"
-"PO-Revision-Date: 2024-05-07 00:17\n"
+"POT-Creation-Date: 2024-05-19 12:54+0000\n"
+"PO-Revision-Date: 2024-05-19 12:55\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -73,83 +73,83 @@ msgstr "Ο τρέχων κόμβος έχει απενεργοποιημένη �
 
 #: pylav/players/player.py:2047
 msgid "Current node has the reverb feature disabled."
-msgstr ""
+msgstr "Ο τρέχων κόμβος έχει την δυνατότητα επαναφοράς απενεργοποιημένη."
 
 #: pylav/players/player.py:2177
 msgid "Current node has the channel-mix feature disabled."
 msgstr "Ο τρέχων κόμβος έχει απενεργοποιημένη τη δυνατότητα ανάμειξης καναλιών."
 
-#: pylav/players/player.py:2469 pylav/players/player.py:2536
-#: pylav/players/player.py:2553 pylav/players/player.py:2659
+#: pylav/players/player.py:2476 pylav/players/player.py:2543
+#: pylav/players/player.py:2560 pylav/players/player.py:2666
 msgid "LIVE"
 msgstr "ΖΩΝΤΑΝΑ"
 
-#: pylav/players/player.py:2488
+#: pylav/players/player.py:2495
 msgid "Now Playing in {server_name_variable_do_not_translate}"
 msgstr "Παίζει τώρα σε {server_name_variable_do_not_translate}"
 
-#: pylav/players/player.py:2515 pylav/players/player.py:2707
+#: pylav/players/player.py:2522 pylav/players/player.py:2714
 msgid "Currently livestreaming"
 msgstr "Επί του παρόντος livestreaming"
 
-#: pylav/players/player.py:2517
+#: pylav/players/player.py:2524
 msgid "Playing: "
 msgstr "Αναπαραγωγή: "
 
-#: pylav/players/player.py:2520 pylav/players/player.py:2545
-#: pylav/players/player.py:2561 pylav/players/player.py:2713
+#: pylav/players/player.py:2527 pylav/players/player.py:2552
+#: pylav/players/player.py:2568 pylav/players/player.py:2720
 msgid "Requester"
 msgstr "Αιτών"
 
-#: pylav/players/player.py:2526
+#: pylav/players/player.py:2533
 msgid "Duration: {track_duration_variable_do_not_translate}"
 msgstr "Διάρκεια: {track_duration_variable_do_not_translate}"
 
-#: pylav/players/player.py:2541 pylav/players/player.py:2557
+#: pylav/players/player.py:2548 pylav/players/player.py:2564
 msgid "Duration"
 msgstr "Διάρκεια"
 
-#: pylav/players/player.py:2547
+#: pylav/players/player.py:2554
 msgid "Previous Track"
 msgstr "Προηγούμενο Κομμάτι"
 
-#: pylav/players/player.py:2563
+#: pylav/players/player.py:2570
 msgid "Next Track"
 msgstr "Επόμενο Κομμάτι"
 
-#: pylav/players/player.py:2573
+#: pylav/players/player.py:2580
 msgid "1 track, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "1 κομμάτι, {queue_total_duration_variable_do_not_translate} Υπόλοιπα\n"
 
-#: pylav/players/player.py:2577
+#: pylav/players/player.py:2584
 msgid "0 tracks, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "0 κομμάτια, {queue_total_duration_variable_do_not_translate} Υπόλοιπα\n"
 
-#: pylav/players/player.py:2581
+#: pylav/players/player.py:2588
 msgid "{track_count_variable_do_not_translate} tracks, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "{track_count_variable_do_not_translate} Κομμάτια {queue_total_duration_variable_do_not_translate} Υπόλοιπα\n"
 
-#: pylav/players/player.py:2588 pylav/players/player.py:2754
+#: pylav/players/player.py:2595 pylav/players/player.py:2761
 msgid "Repeating"
 msgstr "Επανάληψη"
 
-#: pylav/players/player.py:2590 pylav/players/player.py:2756
+#: pylav/players/player.py:2597 pylav/players/player.py:2763
 msgid "Auto Play"
 msgstr "Αυτόματη Αναπαραγωγή"
 
-#: pylav/players/player.py:2593 pylav/players/player.py:2759
+#: pylav/players/player.py:2600 pylav/players/player.py:2766
 msgid "Effects"
-msgstr ""
+msgstr "Εφέ"
 
-#: pylav/players/player.py:2597 pylav/players/player.py:2763
+#: pylav/players/player.py:2604 pylav/players/player.py:2770
 msgid "{volume_variable_do_not_translate}%"
 msgstr "{volume_variable_do_not_translate}%"
 
-#: pylav/players/player.py:2598 pylav/players/player.py:2764
+#: pylav/players/player.py:2605 pylav/players/player.py:2771
 msgid "Volume"
 msgstr "Τόμος"
 
-#: pylav/players/player.py:2601
+#: pylav/players/player.py:2608
 msgid "\n\n"
 "You can search specific services by using the following prefixes:\n"
 "{deezer_service_variable_do_not_translate}  - Deezer\n"
@@ -173,31 +173,31 @@ msgstr "\n\n"
 "Παράδειγμα: {example_variable_do_not_translate}.\n\n"
 "Εάν δεν χρησιμοποιείται πρόθεμα, θα προεπιλέξω {fallback_service_variable_do_not_translate}\n"
 
-#: pylav/players/player.py:2672
+#: pylav/players/player.py:2679
 msgid "Recently Played for {server_name_variable_do_not_translate}"
 msgstr "Πρόσφατα έπαιξε για {server_name_variable_do_not_translate}"
 
-#: pylav/players/player.py:2678
+#: pylav/players/player.py:2685
 msgid "Queue for {server_name_variable_do_not_translate}"
 msgstr "Ουρά για {server_name_variable_do_not_translate}"
 
-#: pylav/players/player.py:2710
+#: pylav/players/player.py:2717
 msgid "Playing"
 msgstr "Αναπαραγωγή"
 
-#: pylav/players/player.py:2726
+#: pylav/players/player.py:2733
 msgid "Queue order will change every time a track is added due to auto shuffle being enabled."
 msgstr "Η σειρά ουράς αναμονής θα αλλάζει κάθε φορά που προστίθεται ένα κομμάτι λόγω της ενεργοποίησης του αυτόματου ανακατέματος."
 
-#: pylav/players/player.py:2736
+#: pylav/players/player.py:2743
 msgid "Page 1 / 1 | 1 track, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "Σελίδα 1 / 1 | 1 κομμάτι, {queue_total_duration_variable_do_not_translate} Υπόλοιπα\n"
 
-#: pylav/players/player.py:2740
+#: pylav/players/player.py:2747
 msgid "Page 1 / 1 | 0 tracks, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "Σελίδα 1 / 1 | 0 κομμάτια, {queue_total_duration_variable_do_not_translate} Υπόλοιπα\n"
 
-#: pylav/players/player.py:2744
+#: pylav/players/player.py:2751
 msgid "Page {current_page_variable_do_not_translate} / {total_pages_variable_do_not_translate} | {track_number_variable_do_not_translate} tracks, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "Σελίδα {current_page_variable_do_not_translate} / {total_pages_variable_do_not_translate} | {track_number_variable_do_not_translate} Κομμάτια {queue_total_duration_variable_do_not_translate} Υπόλοιπα\n"
 
