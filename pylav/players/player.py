@@ -2196,6 +2196,7 @@ class Player(VoiceProtocol):
         low_pass: LowPass = None,
         channel_mix: ChannelMix = None,
         echo: Echo = None,
+        reverb: Reverb = None,
         reset_not_set: bool = False,
     ):  # sourcery skip: low-code-quality
         """
@@ -2224,6 +2225,8 @@ class Player(VoiceProtocol):
             ChannelMix to set
         echo: Echo
             Echo to set
+        reverb: Reverb
+            Reverb to set
         reset_not_set : bool
             Whether to reset any filters that are not set
         requester : discord.Member
@@ -2252,6 +2255,8 @@ class Player(VoiceProtocol):
             channel_mix = None
         if echo and not self.node.has_filter("echo"):
             echo = None
+        if reverb and not self.node.has_filter("reverb"):
+            reverb = None
 
         changed = await self._set_filter_variables(
             False,
@@ -2266,6 +2271,7 @@ class Player(VoiceProtocol):
             tremolo,
             vibrato,
             volume,
+            reverb,
         )
 
         self._effect_enabled = changed
@@ -2282,6 +2288,7 @@ class Player(VoiceProtocol):
                 tremolo,
                 vibrato,
                 volume,
+                reverb,
             )
         else:
             kwargs = {
