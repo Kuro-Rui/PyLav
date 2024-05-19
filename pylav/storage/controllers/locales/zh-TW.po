@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pylav\n"
 "POT-Creation-Date: 2024-04-17 18:11+0000\n"
-"PO-Revision-Date: 2024-04-17 18:11\n"
+"PO-Revision-Date: 2024-05-19 12:54\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "MIME-Version: 1.0\n"
@@ -19,5 +19,5 @@ msgstr ""
 
 #: pylav/storage/controllers/playlists.py:87
 msgid "Playlist with the name {playlist_name_variable_do_not_translate} was not found."
-msgstr ""
+msgstr "找不到名稱為 {playlist_name_variable_do_not_translate} 的播放列表。"
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pylav\n"
-"POT-Creation-Date: 2024-05-07 00:16+0000\n"
-"PO-Revision-Date: 2024-05-07 00:17\n"
+"POT-Creation-Date: 2024-05-19 12:54+0000\n"
+"PO-Revision-Date: 2024-05-19 12:55\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "MIME-Version: 1.0\n"
@@ -73,83 +73,83 @@ msgstr "Bieżący węzeł ma wyłączoną funkcję echa."
 
 #: pylav/players/player.py:2047
 msgid "Current node has the reverb feature disabled."
-msgstr ""
+msgstr "Bieżący węzeł ma wyłączoną funkcję cofania."
 
 #: pylav/players/player.py:2177
 msgid "Current node has the channel-mix feature disabled."
 msgstr "Bieżący węzeł ma wyłączoną funkcję mieszania kanałów."
 
-#: pylav/players/player.py:2469 pylav/players/player.py:2536
-#: pylav/players/player.py:2553 pylav/players/player.py:2659
+#: pylav/players/player.py:2476 pylav/players/player.py:2543
+#: pylav/players/player.py:2560 pylav/players/player.py:2666
 msgid "LIVE"
 msgstr "ŻYWO"
 
-#: pylav/players/player.py:2488
+#: pylav/players/player.py:2495
 msgid "Now Playing in {server_name_variable_do_not_translate}"
 msgstr "Teraz grasz w {server_name_variable_do_not_translate}"
 
-#: pylav/players/player.py:2515 pylav/players/player.py:2707
+#: pylav/players/player.py:2522 pylav/players/player.py:2714
 msgid "Currently livestreaming"
 msgstr "Obecnie żywe zwierzęta"
 
-#: pylav/players/player.py:2517
+#: pylav/players/player.py:2524
 msgid "Playing: "
 msgstr "Odtwarzanie: "
 
-#: pylav/players/player.py:2520 pylav/players/player.py:2545
-#: pylav/players/player.py:2561 pylav/players/player.py:2713
+#: pylav/players/player.py:2527 pylav/players/player.py:2552
+#: pylav/players/player.py:2568 pylav/players/player.py:2720
 msgid "Requester"
 msgstr "Żądający"
 
-#: pylav/players/player.py:2526
+#: pylav/players/player.py:2533
 msgid "Duration: {track_duration_variable_do_not_translate}"
 msgstr "Czas trwania: {track_duration_variable_do_not_translate}"
 
-#: pylav/players/player.py:2541 pylav/players/player.py:2557
+#: pylav/players/player.py:2548 pylav/players/player.py:2564
 msgid "Duration"
 msgstr "Czas trwania"
 
-#: pylav/players/player.py:2547
+#: pylav/players/player.py:2554
 msgid "Previous Track"
 msgstr "Poprzednia ścieżka"
 
-#: pylav/players/player.py:2563
+#: pylav/players/player.py:2570
 msgid "Next Track"
 msgstr "Następny utwór"
 
-#: pylav/players/player.py:2573
+#: pylav/players/player.py:2580
 msgid "1 track, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "1 utwór, {queue_total_duration_variable_do_not_translate} pozostały\n"
 
-#: pylav/players/player.py:2577
+#: pylav/players/player.py:2584
 msgid "0 tracks, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "0 utworów, {queue_total_duration_variable_do_not_translate} pozostały\n"
 
-#: pylav/players/player.py:2581
+#: pylav/players/player.py:2588
 msgid "{track_count_variable_do_not_translate} tracks, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "{track_count_variable_do_not_translate} Utworów {queue_total_duration_variable_do_not_translate} pozostały\n"
 
-#: pylav/players/player.py:2588 pylav/players/player.py:2754
+#: pylav/players/player.py:2595 pylav/players/player.py:2761
 msgid "Repeating"
 msgstr "Powtarzanie"
 
-#: pylav/players/player.py:2590 pylav/players/player.py:2756
+#: pylav/players/player.py:2597 pylav/players/player.py:2763
 msgid "Auto Play"
 msgstr "Automatyczne odtwarzanie"
 
-#: pylav/players/player.py:2593 pylav/players/player.py:2759
+#: pylav/players/player.py:2600 pylav/players/player.py:2766
 msgid "Effects"
-msgstr ""
+msgstr "Efekty"
 
-#: pylav/players/player.py:2597 pylav/players/player.py:2763
+#: pylav/players/player.py:2604 pylav/players/player.py:2770
 msgid "{volume_variable_do_not_translate}%"
 msgstr "{volume_variable_do_not_translate}%"
 
-#: pylav/players/player.py:2598 pylav/players/player.py:2764
+#: pylav/players/player.py:2605 pylav/players/player.py:2771
 msgid "Volume"
 msgstr "Głośność"
 
-#: pylav/players/player.py:2601
+#: pylav/players/player.py:2608
 msgid "\n\n"
 "You can search specific services by using the following prefixes:\n"
 "{deezer_service_variable_do_not_translate}  - Deezer\n"
@@ -173,31 +173,31 @@ msgstr "\n\n"
 "Przykład: {example_variable_do_not_translate}.\n\n"
 "Jeśli nie zostanie użyty żaden prefiks, domyślnie ustawię na {fallback_service_variable_do_not_translate}\n"
 
-#: pylav/players/player.py:2672
+#: pylav/players/player.py:2679
 msgid "Recently Played for {server_name_variable_do_not_translate}"
 msgstr "Ostatnio grane dla {server_name_variable_do_not_translate}"
 
-#: pylav/players/player.py:2678
+#: pylav/players/player.py:2685
 msgid "Queue for {server_name_variable_do_not_translate}"
 msgstr "Kolejka do {server_name_variable_do_not_translate}"
 
-#: pylav/players/player.py:2710
+#: pylav/players/player.py:2717
 msgid "Playing"
 msgstr "Gra"
 
-#: pylav/players/player.py:2726
+#: pylav/players/player.py:2733
 msgid "Queue order will change every time a track is added due to auto shuffle being enabled."
 msgstr "Kolejność kolejek zmienia się za każdym razem, gdy ścieżka zostanie dodana z powodu włączenia automatycznego tasowania."
 
-#: pylav/players/player.py:2736
+#: pylav/players/player.py:2743
 msgid "Page 1 / 1 | 1 track, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "Strona 1 / 1 | 1 utwór, {queue_total_duration_variable_do_not_translate} pozostały\n"
 
-#: pylav/players/player.py:2740
+#: pylav/players/player.py:2747
 msgid "Page 1 / 1 | 0 tracks, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "Strona 1 / 1 | 0 utworów, {queue_total_duration_variable_do_not_translate} pozostały\n"
 
-#: pylav/players/player.py:2744
+#: pylav/players/player.py:2751
 msgid "Page {current_page_variable_do_not_translate} / {total_pages_variable_do_not_translate} | {track_number_variable_do_not_translate} tracks, {queue_total_duration_variable_do_not_translate} remaining\n"
 msgstr "Strona {current_page_variable_do_not_translate} / {total_pages_variable_do_not_translate} | {track_number_variable_do_not_translate} Utworów {queue_total_duration_variable_do_not_translate} pozostały\n"
 
