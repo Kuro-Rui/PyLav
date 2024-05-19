@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.15.2 (19/05/2024)
+- [fix: TypeError: Player._set_filter_variables() missing 1 required positional argument: 'reverb'](https://github.com/PyLav/PyLav/commit/0678dcf1c3ac272ed7c122fba59f0368f11bdec2) - @Drapersniper
+- [Bump crowdin/github-action from 1.16.0 to 1.20.2 (#285)](https://github.com/PyLav/PyLav/commit/ea347e6cd0b66bc090138d0b4df78f8994f8d121) - @dependabot[bot]
+
+---
+
 ## v1.15.1 (07/05/2024)
 - [fix: importlib.metadata](https://github.com/PyLav/PyLav/commit/0c8e7e62dbfbba2b56365e164712503af7e22ac5) - @Drapersniper
 - [dep: fix-shallow-repository](https://github.com/PyLav/PyLav/commit/6426f5a30710c589d2347e620f6040656542c47f) - @Drapersniper
@@ -809,9 +815,3 @@
 - [Bump actions/dependency-review-action from 2 to 3](https://github.com/Drapersniper/PyLav/commit/e7ddb46c1ea723157b4ef38f4b4fc00b90948c8f) - @dependabot[bot]
 - [Bump crowdin/github-action from 1.5.0 to 1.5.1](https://github.com/Drapersniper/PyLav/commit/012e60dd64c02d05050067e4ef96bb9c46070b66) - @dependabot[bot]
 - [workflows](https://github.com/Drapersniper/PyLav/commit/b125e84e0f235fa8b0661834d91fa3ffac3455eb) - @Drapersniper
-
----
-
-## v0.11.19.1 (26/11/2022)
-- [[post] Add new translations](https://github.com/Drapersniper/PyLav/commit/b6a70d2af59d3593532a89e2a3af705180151f24) - @Drapersniper
-- [[post] Update translations](https://github.com/Drapersniper/PyLav/commit/170d8c09d834c952c5018e517ec877a96675929c) - @crowdin-bot
