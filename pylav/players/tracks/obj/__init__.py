@@ -818,7 +818,7 @@ class Track:
         return track_name
 
     async def get_full_track_display_name(self, max_length: int | None = None, author: bool = True) -> str:
-        author_string = f" - {await self.author()}" if author else ""
+        author_string = f" by {await self.author()}" if author else ""
         return (
             await self.get_local_query_track_display_name(
                 max_length=max_length,
